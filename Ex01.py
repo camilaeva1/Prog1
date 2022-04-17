@@ -1,7 +1,15 @@
 #Saying hello
-#Create a program that prompts for your name and prints a greeting using your name
+#Crie um programa que solicite seu nome e imprima uma saudação usando seu nome
 
-nome = input("What is your name? ")
-print("Hello", nome, "nice to meeet you!", sep = " ", end = "\n")
+nome = input("Qual o seu nome? ")
+print("Olá", nome, "prazer em te conhecer!", sep = " ", end = "\n")
+
+#Desafio 01
+#Imprimir a entrada do usuário sem necessariamente usar uma variável um input. Nesse caso usei uma função (def)
+
+def hello(nome):
+     print("Olá " + nome + ", prazer em te conhecer!", sep = " ", end = "\n")
+#Programa principal
+hello("Camila")
 
 
