@@ -1,5 +1,6 @@
-#Printing Quotes
+#Imprimindo ""
+citacao = input("What is the quote? ")  
+autor = input("Quem disse isso?")
+print(autor, "disse \"", citacao, "\"")  
 
 
-print("What is the quote? These aren't the droids you're looking for.Who said it? Obi-Wan Kenobi")
-print("Obi-Wan Kenobi says,", " \"These aren't the droids you're looking for.\" ")
