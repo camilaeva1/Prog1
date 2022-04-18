@@ -2,10 +2,10 @@
 import datetime
 from xmlrpc.client import DateTime
 
-idatual = int(input("What is your current age? "))
-aposentar = int(input("At what age would you like to retire? "))
+idatual = int(input("Qual sua idade atual? "))
+aposentar = int(input("Com que idade quer se aposentar? "))
 falta = aposentar - idatual
-print("You have", falta, "years left until you can retire.", sep = " ", end = "\n")
+print("Faltam", falta, "anos para você se aposentar.", sep = " ", end = "\n")
 date = datetime.date.today()
 year = int(date.strftime("%Y"))
-print("It's ", year, "so you can retire in", year+falta, ".", sep = " ", end = "\n")
+print("Estamos em ", year, " faltam ", year+falta, " para você se aposentar.", sep = " ", end = "\n")
