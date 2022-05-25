@@ -1,0 +1,5 @@
+import json
+with open ('products.json', encoding='utf-8') as meujson:
+    dados = json.load(meujson)
+print(dados)
+print("Json impresso em tela")
